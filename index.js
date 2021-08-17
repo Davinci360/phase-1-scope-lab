@@ -4,3 +4,8 @@ var customerName = 'bob';
 function returnCustomerName() {
 return customerName;
 }
+function upperCaseCustomerName() {
+        customerName = customerName.toUpperCase();
+   /* 'modifies the customerName variable'*/
+
+}
