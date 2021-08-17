@@ -2,19 +2,19 @@
   "stats": {
     "suites": 6,
     "tests": 5,
-    "passes": 2,
+    "passes": 3,
     "pending": 0,
-    "failures": 3,
-    "start": "2021-08-17T09:37:37.989Z",
-    "end": "2021-08-17T09:37:39.526Z",
-    "duration": 1537
+    "failures": 2,
+    "start": "2021-08-17T09:45:04.368Z",
+    "end": "2021-08-17T09:45:05.893Z",
+    "duration": 1525
   },
   "tests": [
     {
       "title": "returns the customerName",
       "fullTitle": "Fix the Scope declare customerName to be bob in global scope returns the customerName",
       "file": "/home/jaybelieve/phase-1/phase-1-scope-lab/test/indexTest.js",
-      "duration": 3,
+      "duration": 2,
       "currentRetry": 0,
       "speed": "fast",
       "err": {}
@@ -23,7 +23,7 @@
       "title": "modifies the customerName variable",
       "fullTitle": "Fix the Scope upperCaseCustomerName() modifies the customerName variable",
       "file": "/home/jaybelieve/phase-1/phase-1-scope-lab/test/indexTest.js",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "speed": "fast",
       "err": {}
@@ -34,21 +34,14 @@
       "file": "/home/jaybelieve/phase-1/phase-1-scope-lab/test/indexTest.js",
       "duration": 1,
       "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: setBestCustomer is not defined\n    at Context.<anonymous> (test/indexTest.js:21:7)\n    at processImmediate (node:internal/timers:464:21)",
-        "message": "setBestCustomer is not defined",
-        "multiple": [
-          {
-            "multiple": "ReferenceError: setBestCustomer is not defined"
-          }
-        ]
-      }
+      "speed": "fast",
+      "err": {}
     },
     {
       "title": "overwrites the best customer",
       "fullTitle": "Fix the Scope overwriteBestCustomer() overwrites the best customer",
       "file": "/home/jaybelieve/phase-1/phase-1-scope-lab/test/indexTest.js",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
         "stack": "ReferenceError: overwriteBestCustomer is not defined\n    at Context.<anonymous> (test/indexTest.js:29:7)\n    at processImmediate (node:internal/timers:464:21)",
@@ -80,26 +73,10 @@
   "pending": [],
   "failures": [
     {
-      "title": "setBestCustomer",
-      "fullTitle": "Fix the Scope setBestCustomer() setBestCustomer",
-      "file": "/home/jaybelieve/phase-1/phase-1-scope-lab/test/indexTest.js",
-      "duration": 1,
-      "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: setBestCustomer is not defined\n    at Context.<anonymous> (test/indexTest.js:21:7)\n    at processImmediate (node:internal/timers:464:21)",
-        "message": "setBestCustomer is not defined",
-        "multiple": [
-          {
-            "multiple": "ReferenceError: setBestCustomer is not defined"
-          }
-        ]
-      }
-    },
-    {
       "title": "overwrites the best customer",
       "fullTitle": "Fix the Scope overwriteBestCustomer() overwrites the best customer",
       "file": "/home/jaybelieve/phase-1/phase-1-scope-lab/test/indexTest.js",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
         "stack": "ReferenceError: overwriteBestCustomer is not defined\n    at Context.<anonymous> (test/indexTest.js:29:7)\n    at processImmediate (node:internal/timers:464:21)",
@@ -133,7 +110,7 @@
       "title": "returns the customerName",
       "fullTitle": "Fix the Scope declare customerName to be bob in global scope returns the customerName",
       "file": "/home/jaybelieve/phase-1/phase-1-scope-lab/test/indexTest.js",
-      "duration": 3,
+      "duration": 2,
       "currentRetry": 0,
       "speed": "fast",
       "err": {}
@@ -141,6 +118,15 @@
     {
       "title": "modifies the customerName variable",
       "fullTitle": "Fix the Scope upperCaseCustomerName() modifies the customerName variable",
+      "file": "/home/jaybelieve/phase-1/phase-1-scope-lab/test/indexTest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "setBestCustomer",
+      "fullTitle": "Fix the Scope setBestCustomer() setBestCustomer",
       "file": "/home/jaybelieve/phase-1/phase-1-scope-lab/test/indexTest.js",
       "duration": 1,
       "currentRetry": 0,
